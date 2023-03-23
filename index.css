@@ -1,16 +1,37 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Spectral', serif;
+    text-align: center;
+
+    background:url(https://i.ibb.co/z4B5g5s/background-image-1.jpg)
+    no-repeat center/cover;
+    height: 100vh;
+    color: #ebf1eb;
+}
 
 h1{
-color: black;
-font-weight: 700;
-font-size: 64px;
-line-height: 86px;
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+    color: #ebf1eb;
+}
+
+h1 span{
+color: #5eead4;
 
 }
 
-h3{
+a{
+color: #ebf1eb;
 
-    color: black;
-    font-weight: 400;
+}
+p{
+ color:#EBF1FB;
+ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 }
