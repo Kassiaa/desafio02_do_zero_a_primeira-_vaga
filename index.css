@@ -10,28 +10,38 @@ body{
     no-repeat center/cover;
     height: 100vh;
     color: #ebf1eb;
+    display: grid;
+    place-content: center;
 }
 
-h1{
+h1 { 
     font-family: 'Beth Ellen', cursive;
     font-weight: 400;
     font-size: 64px;
-    line-height: 120px;
-    color: #ebf1eb;
-}
+    line-height: 120px;}
 
 h1 span{
-color: #5eead4;
+color: #5eead4;}
 
-}
+p {
+    color:#EBF1FB;
+    font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   margin-bottom: 72px;}
 
 a{
 color: #ebf1eb;
-
-}
-p{
- color:#EBF1FB;
- font-weight: 400;
-font-size: 20px;
+padding: 16px 32px;
+font-weight: 600;
+font-size: 24px;
 line-height: 24px;
+}
+
+a:hover,
+.btn-primary{
+    background: #5EEAD4;
+    border-radius: 8px;
+    color: #0B0C0E;
+    text-decoration: none;
 }
